@@ -31,7 +31,8 @@ public class loginServlet extends HttpServlet {
 		String username = request.getParameter("username");
 		String password = request.getParameter("password");
 		
-		///APRENDIENDO
+		///APRENDIENDO A UTILIZAR JSP
+		//pRUEBA
 		
 		if(userExists(username, password)) {
 			request.getSession().setAttribute("username", username);
